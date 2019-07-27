@@ -269,6 +269,15 @@ body {
     border-top: 2px solid white !important;
 }
 
+#secondary{
+    display: none !important;
+}
+
+.content-single {
+    display: block;
+    margin: auto;
+}
+
 /* Img header */
 
 .site-title{

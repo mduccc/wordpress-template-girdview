@@ -643,9 +643,13 @@ textarea {
 }
 
 .content-single {
+	/*
 	float: left;
+	*/
 	box-sizing: border-box;
+	/*
 	padding-right: 4em;
+	*/
 	width: 70%;
 }
 

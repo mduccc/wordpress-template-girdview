@@ -160,5 +160,5 @@ body.adding-widget.adding-magazine-widget #magazine-widgets-buttons .add-new-mag
 }
 
 .adding-magazine-widget #available-widgets [id*='widget-tpl-gridbox-magazine-posts-grid'] .widget-top::before {
-	background-image: url( '../images/magazine-grid.png' );
+	background-image: url('../images/magazine-grid.png');
 }
