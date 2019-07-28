@@ -22,6 +22,14 @@ function gridbox_customize_register_footer_settings($wp_customize)
     ]);
 
     $wp_customize->add_setting(
+        'organization_name_footer',
+        [
+            'default' => '',
+            'type' => 'theme_mod'
+        ]
+    );
+
+    $wp_customize->add_setting(
         'address_footer',
         [
             'default' => '',
@@ -50,6 +58,15 @@ function gridbox_customize_register_footer_settings($wp_customize)
         [
             'default' => '',
             'type' => 'theme_mod'
+        ]
+    );
+
+    $wp_customize->add_control('organization_name__footer_controller',
+        [
+            'label' => 'Organization name',
+            'section' => 'gridbox_section_footer',
+            'settings' => 'organization_name_footer',
+            'allow_addition' => true, /*Show UI for adding new content*/
         ]
     );
 
