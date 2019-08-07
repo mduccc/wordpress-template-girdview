@@ -83,7 +83,7 @@ gridbox_blog_title();
 
                 </div>
 
-                <?
+                <?php
             }
             ?>
 
