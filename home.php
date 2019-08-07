@@ -36,7 +36,7 @@ gridbox_blog_title();
         </style>
 
         <?php
-        if (have_posts()) : ?>
+        if (have_posts()) { ?>
 
             <?php
             $categories = get_categories();
@@ -90,11 +90,11 @@ gridbox_blog_title();
             <?php gridbox_pagination(); ?>
 
         <?php
-        else :
+        }else {
 
             get_template_part('template-parts/content', 'none');
 
-        endif; ?>
+        } ?>
 
     </main><!-- #main -->
 </section><!-- #primary -->
